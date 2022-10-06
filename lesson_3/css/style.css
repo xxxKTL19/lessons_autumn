@@ -1,0 +1,74 @@
+h1{
+   color: blueviolet;
+}
+nav a{
+   color: blue;
+}
+header *{
+   color: aqua;
+}
+.footwear li,
+.accessories li{
+   color: rgb(68, 118, 118);
+}
+.contents.list .clothes li{
+   color: crimson;
+}
+mark,
+header mark {
+   color: blueviolet;
+}
+mark.red {
+   color: red;
+}
+h1 + p{
+   color:deepskyblue;
+}
+.text > p.chocolate{
+   color: chocolate;
+}
+.text span{
+   color: rgb(47, 206, 184);
+}
+.steps.one{
+   color: chartreuse;
+}
+.steps .two{
+   color: cyan;
+}
+ul.three{
+   color: cornflowerblue;
+}
+ul.four li {
+   color: crimson;
+}
+ul li.five{
+   color: yellow; 
+}
+h2{
+   color:rgb(126, 29, 196)
+}
+#accessories{
+   color: crimson;
+}
+.clothes.block > p{
+   color: chartreuse;
+}
+.wedding > h4{
+   color: blue;
+}
+.block .green {
+   color: green;
+}
+h4 + p{
+   color: orangered
+}
+h4 ~ p.wedding{
+   color: yellow;
+}
+#footwear ~ p{
+   color: rgb(218, 49, 136);
+}
+main + footer p{
+   color: crimson;
+}
