@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+@font-face {
+   font-family: 'Lucida Console';
+   src: url('../fonts/Lucida_Console/LucidaConsole.woff2') format('woff2'),
+       url('../fonts/Lucida_Console/LucidaConsole.woff') format('woff');
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+
+*,
+body{
+   font-family: Montserrat, sans-serif;
+   line-height: 1.5;
+}
+nav{
+   width: 1000px;
+   margin: 0 auto;
+   padding: 15px;
+   text-align: right;
+   }
+nav>h3{
+   font-size: 30px;
+   font-style: italic;
+   font-weight: 700;
+   color: rgba(99, 236, 241, 0.444);
+   text-shadow: 4px 2px 1px rgba(0, 0, 0, 0.327);
+   letter-spacing: 10px;
+   line-height: 1.8;
+}
+nav li{
+   text-decoration:underline;
+}
+ul>li{
+   color: blueviolet;
+   font-size: 18px;
+}
+ul>li+li{
+   color: brown;
+   font-weight: 700;
+   font-style: italic;
+}
+ul>li+li+li{
+   font-style: oblique;
+   font-weight: 900;
+   text-decoration: line-through;
+   font-size: 22px;
+}
+
+.funny-stories{
+   width: 1200px;
+   margin: 0 auto 25px;
+   text-align: center;
+}
+h1{
+   color: rgb(104, 33, 134);
+   font-size: 60px;
+   font-style: italic;
+   line-height: 2;
+   text-shadow: 2px 2px 7px rgba(21, 62, 208, 0.385);
+}
+.like-dogs{
+   font-size: 24px;
+   text-decoration: overline;
+   color: rgb(35, 89, 91);
+   text-shadow: 25px -10px 10px rgba(231, 11, 132, 0.367), 
+   -20px 10px 10px rgba(21, 62, 208, 0.438);
+   }
+.funny-stories img{
+   height: 150px;
+}
+.funny-stories img + p,
+.funny-stories img + p + p{
+   text-align-last: left;
+   font-family: 'Lucida Console', Courier, monospace;
+   font-size: 25px;
+   color:rgb(220, 20, 143);
+   font-weight: 700;
+}
+.funny-stories img + p{
+   font-style: italic;
+}
+mark{
+   color:gainsboro;
+   text-shadow: 3px 1px 1px #000;
+   letter-spacing: 5px;
+   font-weight: 400;
+}
+
+h2{
+   font-size: 55px;
+   color: coral;
+   font-family: Caveat, cursive;
+   text-shadow: 1px 1px 1px #000;
+}
+.block{
+   background-color: rgba(127, 255, 234, 0.267);
+   margin-bottom: 30px;
+   padding: 25px 45px 30px;
+}
+.block>img{
+   width: 600px;
+}
+.block p{
+   margin-bottom: 20px;
+}
+span{
+   text-transform: uppercase;
+   color: rgb(0, 157, 255);
+   text-decoration: underline;
+}
+.dog-sleep{
+   font-size: 18px;
+   text-indent: 45px;
+   text-align: justify;
+}
+.dog-buy{
+   text-align: right;
+}
+.dog-buy h2{
+   text-shadow: none;
+}
+.dog-say{
+   text-align: center;
+}
+.dog-say h2{
+   font-weight: 900;
+}
+.block .transform{
+   text-transform: capitalize;
+   color: grey;
+   font-weight: 700;
+}
+.block .handwriting{
+   font-family: Caveat, cursive;
+   font-size: 28px;
+   color: fuchsia;
+}
+p.transform + p{
+   color: rgb(38, 187, 38);
+   font-style: italic;
+   text-decoration: underline;
+   text-shadow: 1px 1px 2px #000;
+   font-size: 22px;
+}
+.dog-sleep p.transform + p + p{
+   color: blueviolet;
+   font-family: 'Lucida Console', monospace;
+}
+.dog-sleep p.transform + p + p + p + p{
+   color: rgb(43, 226, 116);
+   font-family: 'Lucida Console', monospace;
+   font-style: italic;
+}
+.dog-buy>p,
+.dog-say>p{
+   color:darkgoldenrod;
+}
+.block.dog-buy .handwriting + p{
+color: rgb(0, 255, 98);
+font-weight: 700;
+font-size: 20px;
+}
+
+footer>p{
+   font-size: 40px;
+   color: rgb(0, 42, 255);
+   text-shadow: 2px -2px 3px grey;
+}
+footer> p+p{
+   color: cadetblue;
+   text-shadow: none;
+   font-style: italic;
+   font-size: 20px;
+}
+footer a{
+   color: crimson;
+   font-style: italic;
+   font-weight: 900;
+   font-size: 25px;
+}
