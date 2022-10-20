@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap');
+@font-face {
+   font-family: 'Kelly Slab';
+   src: url('../fonts/KellySlab/kellyslab.woff2') format('woff2'), url('../fonts/KellySlab/kellyslab.woff') format('woff');
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+
+body{
+   font-family: 'Open Sans';
+   line-height: 1.6;
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 15px;
+}
+
+a.figma{
+   font-family: Lato, sans-serif;
+   font-size: 20px;
+   line-height: 1.6;
+   width: 150px;
+   background-color: rgba(73, 183, 14, 0.254);
+   color: rgb(234, 24, 24);
+   text-align: center;
+   text-transform: uppercase;
+   font-weight: 900;
+   letter-spacing: 5px;
+   display: inline-block;
+   margin-bottom: 25px;
+   padding: 10px;
+   border-radius: 15px;
+   border: 2px double rgba(0, 0, 0, 0.222);
+   box-shadow: 10px 5px 10px 0px rgba(51, 11, 4, 0.278),inset 2px -8px 20px 0px rgb(3, 27, 29);
+   font-style: normal;
+  }
+.line{
+   height: 5px;
+   background-color: grey;
+   border-bottom: 7px dotted #000;
+}
+.line-second{
+   height: 5px;
+   border-bottom: 7px double #000;
+}
+header,
+.block{
+   margin-bottom: 30px;
+   border: 3px solid silver;
+   padding: 20px;
+}
+
+a{
+   display: inline-block;
+   min-width: 120px;
+   margin-bottom: 20px;
+   font-style: italic;
+   color: purple;
+   text-indent: 10px;
+   padding: 5px 10px;
+   border-radius: 15px;
+   font-weight: 900;
+   font-size: 20px;
+   box-shadow: 10px 5px 5px 1px rgba(228, 74, 8, 0.718), inset 3px -10px 15px 5px rgba(0, 0, 0, 0.363);
+   margin-right: 10px;
+}
+
+ ul a{
+   width: 200px;
+   font-size: 24px;
+}
+
+h1,
+h2,
+h3,
+ul>li{
+   font-family: 'Kelly Slab', cursive;
+}
+
+h1,
+h2,
+h3,
+.line,
+.line-second,
+p{
+   margin-bottom: 25px;
+}
+
+h1{
+   font-size: 60px;
+   color: ;
+   text-align: center;
+   font-weight: 700;
+   font-style: italic;
+   text-shadow: -5px -5px 7px rgba(0, 0, 0, 0.201), 5px 5px 10px rgba(248, 231, 76, 0.955);
+   letter-spacing: 7px;
+   background-color: darkseagreen;
+}
+.block.about{
+   max-width: 1100px;
+   margin: 0 auto;
+   border-radius: 40px 0;
+   border: 6px solid yellow;
+   padding: 15px 30px;
+   box-shadow: 2px 5px 20px 2px #000, inset 2px 2px 40px 2px yellow;
+   margin-bottom: 50px;
+ }
+
+ .block.about p{
+   text-align: justify;
+   text-indent: 50px;
+ }
+ .block.about span{
+   border-bottom: 3px dashed blueviolet;
+ }
+
+h2{
+   font-size: 50px;
+   text-shadow: 2px 3px 1px rgba(10, 37, 243, 0.482);
+   background-color: darkseagreen;
+   text-indent: 15px;
+}
+
+img{
+   height: 300px;
+   margin-bottom: 20px;
+  }
+.pink{
+   border: 20px solid pink;
+   padding: 20px;
+   max-width: 900px;
+   margin: 0 0 25px auto;
+   text-align: right;
+   border-top: 20px dotted lightblue;
+   outline: 2px solid palevioletred;
+}
+.yellow{
+   border: 6px dashed yellow;
+   padding: 15px 25px 15px 60px;
+   text-align: center;
+}
+.yellow span{
+   font-size: 22px;
+   box-shadow: inset 0 0 15px violet;
+   border-bottom: 4px double darkmagenta;
+}
+.colorful{
+   border-top: 10px dotted violet;
+   border-right: 10px solid yellow;
+   border-bottom: 10px dashed yellowgreen;
+   border-left: 10px double rgb(222, 8, 8);
+   box-shadow: inset 0 0 25px rgba(0, 128, 0, 0.353);
+   padding: 50px;
+}
+.round{
+   width: 375px;
+   height: 375px; 
+   margin: 0 auto;
+   border-radius: 50%;
+   border: 7px solid blueviolet;
+   padding: 38px;
+   text-align: center;
+   outline: 8px dashed yellow;
+   color: brown;
+   text-transform: capitalize;
+}
+.block.description > div{
+   color: chocolate;
+   max-height: 200px;
+   overflow: auto;
+   max-width: 800px;
+   margin: 0 0 25px auto;
+   box-shadow: inset 0 0 45px lawngreen;
+   padding: 25px;
+   text-decoration: underline;
+}
+.scroll span{
+   border-bottom: 5px dotted blue;
+}
+.scroll + p{
+   color: rgb(36, 159, 159);
+   font-size: 25px;
+   max-width: 800px;
+   max-height: 400px;
+   overflow: hidden;
+   border: 10px dotted rgb(181, 31, 31);
+   padding-left: 30px;
+   text-indent: 50px;
+   text-transform: uppercase;
+   text-align: justify;
+}
+.dotted{
+   background-color: rgba(153, 205, 50, 0.56);
+   border: 25px dotted #fff;
+}
+h3{
+   font-size: 35px;
+   color: blue;
+   font-weight: 700;
+   border-bottom: 8px dashed yellow;
+}
+.block.description .scroll-2{
+   color: darkcyan;
+   overflow: scroll;
+   min-width: 600px;
+   min-height: 500px;
+   text-decoration: none;
+ }
+ .scroll-2 p{
+   text-decoration: line-through;
+   text-indent: 100px;
+   text-align: right;
+}
+.block.description .scroll-3{
+   box-shadow: inset 0 0 50px fuchsia;
+   max-width: 1000px;
+   text-decoration: none;
+   text-indent: 100px;
+}
+.characteristics >p{
+   color: saddlebrown;
+   border: 2px dashed saddlebrown;
+   padding: 15px 25px;
+}
+.characteristics > img + p + p{
+   color: midnightblue;
+   font-size: 18px;
+   border: 3px solid gray;
+   border-radius: 50px 0;
+   box-shadow: inset 0 0 15px #000, 0 0 50px yellowgreen;
+   padding: 25px 50px;
+}
+.characteristics > img + p + p + p{
+   border-radius: 50px 50px 0 0;
+   border: 14px double rgba(0, 128, 0, 0.576);
+   box-shadow: inset 2px 2px 25px #000, 0 0 35px rgb(65 105 225 / 72%) ;
+   text-align: right;
+   padding-left: 80px;
+}
+.characteristics > img + p + p + p + p{
+   border: 15px solid rgba(15, 184, 206, 0.378);
+   outline: 10px dotted green;
+   box-shadow: inset 0 0 50px grey;
+}
+.list,
+.list > ul{
+   border: 5px dashed slategray;
+   box-shadow: inset 0 0 15px steelblue;
+   padding: 30px;
+  }
+.list > ul > li{
+   font-weight: 700;
+  }
+.list > ul > li > p{
+   color: darkblue;
+   text-align: right;
+   box-shadow: 1px 1px 10px 5px yellowgreen;
+   font-weight: 400;
+   padding: 10px;
+  }
+.industry>p{
+   border: 5px double red;
+   padding: 15px 15px 15px 50px;
+   text-align: justify;
+   text-indent: 75px;
+}
+.industry span{
+   box-shadow: inset 0 0 10px blue;
+}
+.trading img + h4 +p{
+   color: red;
+   border: 15px double darkblue;
+   background-color: green;
+   opacity: 0.5;
+}
+h4{
+   margin-bottom: 20px;
+   font-size: 25px;
+   font-style: italic;
+   color: blueviolet;
+   text-shadow: 1px 1px 1px #000;
+   text-decoration: underline;
+}  
+h4 span{
+   text-decoration: overline;
+   color: aqua;
+}
+.visibility{
+   max-height: 200px;
+   max-width: 600px;
+   margin-bottom: 25px;
+   overflow: auto;
+   box-shadow: inset 1px 2px 35px coral;
+   visibility: hidden;
+}
+.block.trading p a{
+   margin: 0;
+   text-indent: none;
+   font-weight: 400;
+   border-radius: none;
+   box-shadow: none;
+   padding: 0;
+   display: inline;
+   text-decoration: underline;
+}
+.opacity{
+   max-height: 200px;
+   max-width: 400px;
+   margin-bottom: 25px;
+   overflow: auto;
+   box-shadow: inset 1px 2px 35px coral;
+   padding: 15px;
+   opacity: 0;
+}
+.opacity + h4 + p{
+   box-shadow: inset 30px -30px 150px rgb(255 217 0);
+   border: 5px solid saddlebrown;
+   outline: 5px dashed seagreen;
+   text-align: justify;
+   padding: 45px;
+   text-transform: capitalize;
+   text-indent: 75px;
+   font-size: 24px;
+   max-height: 150px;
+   max-width: 800px;
+   overflow: auto;
+   margin: 0 auto 50px;
+   }
+footer div{
+   background-color: seagreen;
+   min-height: 20px;
+   margin-bottom: 25px;
+   border-bottom: 10px double #000;
+}
+footer p{
+   color: silver;
+   font-style: italic;
+}
