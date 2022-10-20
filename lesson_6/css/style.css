@@ -88,7 +88,6 @@ p{
 
 h1{
    font-size: 60px;
-   color: ;
    text-align: center;
    font-weight: 700;
    font-style: italic;
@@ -295,9 +294,7 @@ h4 span{
 }
 .block.trading p a{
    margin: 0;
-   text-indent: none;
    font-weight: 400;
-   border-radius: none;
    box-shadow: none;
    padding: 0;
    display: inline;
