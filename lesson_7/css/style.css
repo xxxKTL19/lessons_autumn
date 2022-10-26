@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Trispace:wght@400;700;800&display=swap');
+
+.wrapper{
+   height: 100%;
+   overflow: hidden;
+}
+nav.nav__container{
+   max-width: 600px;
+   margin: 0 auto;
+}
+nav.nav__container > p{
+   color: red;
+   display: inline-block;
+   font-size: 75px;
+   text-shadow: 2px 2px 1px #000;
+   font-family: 'Fuzzy Bubbles', cursive;
+   font-weight: 700;
+
+}
+nav a{
+   display: inline-block;
+   height: 100px;
+   width: 100px;
+   background: rgba(153, 205, 50, 0.59);
+   border-radius: 50%;
+   color: red;
+   text-transform: uppercase;
+   text-shadow: 1px 1px 1px #000;
+   font-weight: 700;
+   font-size: 26px;
+   text-align: center;
+   padding-top: 32px;
+   border: 3px solid rgb(220, 211, 211);
+   box-shadow: inset 5px -5px 20px #000, 5px 5px 25px #000;
+   outline: 3px dotted rgb(220, 211, 211);
+   margin: 0 0 25px auto;
+}
+
+body{
+   font-family: Trispace, monospace;
+   background: url('../img/waves_fon.png') top/ cover fixed;
+   /* padding-top: 50px; */
+}
+[class*='__container']{
+   max-width: 95%;
+   margin: 0 auto 50px;
+}
+.ocean__container,
+.girl__container,
+.tornado__container,
+.shell__container{
+   min-height: 800px;
+   box-shadow: 5px 10px 5px #000;
+   background: rgba(0, 0, 255, 0.585) ;   
+}
+
+h1{
+   color:blue;
+   font-family: 'Fuzzy Bubbles', cursive;
+   font-size: 85px;
+   text-align: center;
+   text-shadow: 5px 10px 5px rgb(96, 35, 83), 1px 1px 2px #fff;
+   padding: 25px;
+   margin-bottom: 25px;
+   background: rgba(255, 255, 255, 0.593);
+}
+p{
+   font-size: 35px;
+   color: aliceblue;
+   padding: 15px 50px;
+}
+.ocean__container .ocean{
+   max-width: 80%;
+   min-height: 700px;
+   margin: 0 auto;
+   background: url('../img/sea-turtle-2952470_1280.png') center / 250px no-repeat fixed,  url('../img/turtle_2.png') 20px/ 250px no-repeat, url('../img/waves_3.png') center/ cover no-repeat, url('../img/turtle.png') 90% 90% /200px no-repeat, url('../img/sea-turtle-2952470_1280.png') 25% / 100px repeat-y, blue ;
+   box-shadow: inset 20px -20px 45px #000;
+   border-radius: 25px;
+}
+.ocean p{
+   font-family: 'Fuzzy Bubbles', cursive;
+ font-size: 30px;
+}
+
+.girl-content{
+   background: url('../img/girl.png') no-repeat rgba(0, 0, 255, 0.56);
+   background-size: contain;
+   margin-bottom: 30px;
+}
+.girl-content p{
+   padding-left: 300px;
+   max-width: 1000px;
+   text-align: right;
+}
+.girl__container .ocean-girl{
+   max-width: 60%;
+   min-height: 700px;
+   margin: 0 auto;
+   background: url('../img/shell_12.png') bottom / 350px repeat-x, url('../img/sea-turtle-2952470_1280.png') center / 250px no-repeat fixed, url('../img/waves_3.gif') center/ cover no-repeat;
+   box-shadow: inset 20px -20px 45px #000;
+   border-radius: 25px;
+}
+
+.tornado-content{
+   background: url('../img/thunderstorm.gif') center/ cover no-repeat;
+   /* background-size: cover; */
+   /* background-size: 300px; */
+   margin-bottom: 30px;
+   min-height: 300px;
+}
+
+.tornado__container{
+   max-width: 75%;
+   background: url('../img/jellyfish.png') right center / 200px no-repeat, rgba(0, 0, 255, 0.585);
+}
+
+.tornado__container .ocean-tornado{
+   width: 500px;
+  height: 500px;
+   margin: 0 auto;
+   background: url('../img/sea-turtle-2952470_1280.png') center / 250px no-repeat fixed, url('../img/tornado.gif') center/ cover no-repeat;
+   box-shadow: inset 20px -20px 45px #000;
+   border-radius: 50%;
+}
+
+.shell-content{
+   background: url('../img/starfish_shells.png')  burlywood;
+   background-size: round;
+   background-size: 300px;
+   margin-bottom: 30px;
+   min-height: 300px;
+}
+
+.shell__container .ocean-shell{
+   max-width: 90%;
+   min-height: 700px;
+   margin: 0 auto;
+   background: url('../img/sea-turtle-2952470_1280.png') center / 350px no-repeat fixed, url('../img/shell_12.png') 15% 70%/ 500px no-repeat, url('../img/oyster_pearl.png') 75% 350px/200px no-repeat, url('../img/turtle.png') 85% center/200px no-repeat, url('../img/waves_fon.png') center/ cover no-repeat;
+   box-shadow: inset 20px -20px 45px #000;
+   border-radius: 25px;
+   color: blue;
+   }
+   footer p{
+      font-size: 25px;
+      font-style: italic;
+      text-align: right;
+   }
