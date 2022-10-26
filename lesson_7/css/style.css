@@ -126,7 +126,7 @@ p{
 
 .shell-content{
    background: url('../img/starfish_shells.png')  burlywood;
-   background-size: round;
+   background-repeat: round;
    background-size: 300px;
    margin-bottom: 30px;
    min-height: 300px;
