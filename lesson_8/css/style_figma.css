@@ -41,7 +41,7 @@ nav a::after{
  }
 nav a:hover{
    text-shadow: -2px -2px 2px #fff;
-   font-size: 38,5px;
+   font-size: 38.5px;
    background-color:#cfea3788;
    box-shadow: 0 4px 2px #000;
  }
