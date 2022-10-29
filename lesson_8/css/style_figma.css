@@ -1,0 +1,145 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+[class*='__container']{
+   max-width: 600px;
+   margin: 0 auto 50px;
+}
+
+body{
+   font-family: Lato, sans-serif;
+   color: #424551;
+   line-height: 160%;
+}
+
+header{
+   padding: 15px;
+}
+header::after{
+   content: "";
+   display: block;
+   border-bottom: 4px double #1E212C;
+  }
+nav a{
+   font-size: 38px;
+   display: inline-block;
+   padding: 10px 50px;
+   color: crimson;
+   background-color:#cfea3767;
+   border-radius: 25px;
+   box-shadow: 3px 7px 3px #000;
+   padding-left: 15px;
+   max-width: 350px;
+   margin: 0 0 15px auto;
+}
+nav a::after{
+   content: "";
+   background: url('../img/stikers/Orangoutang-512px-6.gif') left bottom/ 130px no-repeat;
+   display: inline-block;
+   width: 130px;
+   height: 130px;
+ }
+nav a:hover{
+   text-shadow: -2px -2px 2px #fff;
+   font-size: 38,5px;
+   background-color:#cfea3788;
+   box-shadow: 0 4px 2px #000;
+ }
+
+h2{
+   font-weight: 900;
+   font-size: 46px;
+   line-height: 130%;
+   color: #1E212C;
+}
+.block-1__container h2{
+   margin-bottom: 40px;
+}
+.block-1__container .text{
+   margin-bottom: 48px;
+}
+h3{
+   font-weight: 700;
+   font-size: 28px;
+   line-height: 150%;
+   color: #1E212C;
+   margin-bottom: 24px;
+}
+
+.block-1__container li::before{
+   content: "";
+   background: url('../img/icons/check.png') 0 0/ 16px no-repeat;
+   display: inline-block;
+   width: 16px;
+   height: 16px;
+   margin: 0 16px 0 0;
+}
+.block-1__container li:not(:last-child){
+   margin-bottom: 4px;
+}
+
+.heading{
+   margin-bottom: 32px;
+}
+.heading *:last-child{
+   margin-bottom: 0;
+}
+h4{
+   line-height: 150%;
+   font-weight: 700;
+   color: #1E212C;
+   text-transform: uppercase;
+   margin-bottom: 8px;
+}
+.block-2__container h2{
+   margin-bottom: 16px;
+}
+h5{
+   font-size: 20px;
+   line-height: 150%;
+   color: #787A80;
+   margin-bottom: 12px;
+   }
+
+.list-item{
+   font-weight: 700;
+   margin-bottom: 32px;
+}   
+.block-2__container li:nth-child(odd){
+   content: '';
+   background: url('../img/icons/star.png') 0 4px no-repeat;
+   padding-left: 22px;
+}
+.block-2__container li:nth-child(even){
+   content: '';
+   background: url('../img/icons/play.png') 0 4px no-repeat;
+   padding-left: 22px;
+}
+.block-2__container li:nth-child(3){
+   content: '';
+   background: url('../img/icons/profile.png') 0 4px no-repeat;
+   padding-left: 22px;
+}
+.block-2__container li:not(:last-of-type){
+   margin-bottom: 4px;
+}
+
+.block-1__container::after{
+   content: "";
+   display: block;
+   border-bottom: 1px solid #1E212C;
+  }
+.block-2__container::after{
+   content: "";
+   display: block;
+   background: #1E212C;
+   height: 1px;
+}
+.block-1__container .list,
+.block-2__container .text{
+   margin-bottom: 50px;
+}
+
+
+
+

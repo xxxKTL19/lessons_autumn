@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+body{
+   font-family: Montserrat, sans-serif;
+   color: rgba(3, 3, 53, 0.913);
+   line-height: 1.6;
+   background: url('../img/webb.png') center repeat fixed;
+}
+
+.header{
+   background: #fafafae9;
+   margin-bottom: 50px;
+}
+.header::after{
+   content: "";
+   display: block;
+   border-bottom: 5px double grey;
+}
+.header nav{
+   padding: 15px;
+   max-width: 900px;
+   margin: 0 0 0 auto;
+}
+.header nav a.game{
+   font-size: 28px;
+   color: crimson;
+   font-weight: 700;
+   box-shadow: 2px 4px 3px #000;
+   padding: 15px 25px;
+   margin-right: 30px;
+   border-radius: 15px;
+   background: #cfea3767;
+}
+.header nav a.game:hover{
+   box-shadow: 0 2px 2px #000;
+   text-shadow: 1px 1px 2px #000;
+   background-color:#cfea3788;
+   /* background: #fff; */
+}
+
+.header nav a.figma{
+   display: inline-block;
+   font-size: 38px;
+   text-transform: uppercase;
+   color: crimson;
+   font-weight: 700;
+   background: #cfea3767;
+   box-shadow: 3px 7px 3px #000;
+   border-radius: 25px;
+   padding-left: 15px;
+   max-width: 350px;
+   margin: 0 0 0 auto;
+}
+.header nav a.figma::after{
+   content: '';
+   display: inline-block;
+   background: url('../img/stikers/Orangoutang-512px-5.gif') 0 0 / 130px no-repeat;
+   width: 130px;
+   height: 130px;
+}
+.header nav a.figma:hover{
+   background-color:#cfea3788;
+   /* background: #fff; */
+   box-shadow: 0 4px 2px #000;
+   font-size: 38,5px;
+   text-shadow: 1px 1px 2px #000;
+}
+
+[class*='__container']{
+   max-width: 1000px;
+   margin: 0 auto;
+}
+[class*='__shadow']{
+   box-shadow: 0 0 20px 3px rgb(0 0 0 / 25%);
+   margin-bottom: 50px;
+   border-radius: 5px;
+   width: 95%;
+}
+
+.heading,
+.text{
+   width: 95%;
+   margin: 0 auto 50px;
+   background: #fff;
+   padding: 25px 50px;
+}
+h1{
+   font-family: 'Press Start 2P', sans-serif;
+   font-size: 45px;
+   text-align: center;
+}
+.heading:hover{
+   color: rgba(190, 9, 9, 0.841);
+   box-shadow: 0 0 50px 3px rgba(0, 0, 0, 0.371);
+   border-radius: 25px;
+   cursor: pointer;
+}
+.heading:active{
+   color: rgba(17, 76, 17, 0.56);
+   width: 92%;
+   background: rgba(127, 255, 212, 0.385);
+   box-shadow: 0 0 50px 3px rgba(0, 0, 0, 0.371), inset 0 0 50px 3px #000;
+    }
+.text p{
+   cursor: pointer;
+}
+.text p:not(:last-child){
+   margin-bottom: 10px;
+}  
+p a:focus{
+   outline: 5px dotted green;
+} 
+
+.text p:nth-child(odd){
+   color: rgb(32, 32, 171);
+   font-style: italic;
+}
+.text p:nth-child(even){
+   text-indent: 100px;
+   
+}
+.text p:nth-child(3n){
+   font-weight: 700;
+}
+.text p:hover{
+   background: #e8e1e1;
+}
+.text p:not(:first-of-type):active{
+   background: rgba(255, 217, 0, 0.408);
+   font-style: normal;
+}
+.text p:first-of-type:active{
+   color:red;
+}
+
+
+/* ======Game1====== */
+
+[class*='block__shadow game']{
+   background: url('../img/bg_apple_green.jpg') 0 0 /50%;
+   padding: 25px 50px;
+}
+.game-wrap{
+   max-width: 800px;
+   min-height: 600px;
+   margin: 0 auto;
+   background: #fff;
+   border-radius: 25px;
+   box-shadow: 0 0 20px 10px rgb(0 0 0 / 19%);
+   padding: 50px 20px;
+}
+h2{
+   font-family: 'Press Start 2P',sans-serif;
+   font-size: 28px;
+   color: green;
+   text-align: center;
+   font-weight: 700;
+   letter-spacing: 5px;
+   margin-bottom: 20px;
+}
+.game-1__container h2::after{
+   content: 'press the buttons to catch the worms';
+   display: block;
+   color: red;
+   font-size: 17px;
+   text-align: center;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 700;
+   line-height: 200%;
+}
+
+.apple-worm{
+   max-width: 280px;
+   margin: 0 auto;
+   margin-bottom: 35px;
+   font-size: 0px; 
+}
+
+.apple-worm a{
+   display: inline-block;
+   width: 70px;
+   height: 70px;
+   text-align: center;
+   border: 1px solid #000;
+   border-radius: 3px;
+   background: rgba(172, 255, 47, 0.857);
+   box-shadow: inset 0 0 5px #000; 
+}
+
+.apple-worm a:hover{
+   box-shadow: inset 0px 2px 8px rgba(0, 0, 0, 0.796);
+   background: greenyellow;
+   border-radius: 5px;
+}
+.apple-worm a:active{
+   background: url('../img/apple_green.jpg') center/ 50px no-repeat;
+}
+.apple-worm a:active:nth-child(3n + 4){
+   background: url('../img/apple_with_worm.jpg')center/50px no-repeat;
+}
+.square-4:visited,
+.square-7:visited,
+.square-10:visited,
+.square-13:visited,
+.square-16:visited{
+   background-color: red;
+}
+
+.apple-worm::before{
+   content: '';
+   display: block;
+   background: url('../img/apple_worm_green.jpg') center/60px space;
+   height: 70px;
+   margin-bottom: 25px;
+} 
+.apple-worm:hover::before{
+   background: url('../img/apple_worm_green.jpg') center/85px space;
+   height: 85px;
+   margin-bottom: 10px;
+   width: 350px;
+}
+
+.apple-worm::after{
+   content: '';
+   display: block;
+   background: url('../img/apple_worm_green_2.jpg') center/50px no-repeat;
+   width: 180px;
+   height: 90px;
+   margin: 0 auto;
+   
+}
+.apple-worm a:last-child{
+   margin-bottom: 25px;
+}
+.apple-worm:active::after{
+     background: url('../img/apple_worm_green_2.jpg') center/90px space;
+}
+
+.game-wrap p:last-of-type{
+   text-align: center;
+   font-style: italic;
+   max-width: 400px;
+   margin: 0 auto;
+   background-color: rgba(127, 255, 212, 0.138);
+   border: 2px dashed rgba(0, 139, 139, 0.374);
+   border-radius: 35px 10px;
+   padding: 5px 15px;
+   cursor: pointer;
+}
+.game-wrap p:last-of-type:hover{
+   color: rgba(109, 9, 9, 0.874);
+   font-weight: 700;
+   border: 2px double rgba(58, 0, 139, 0.144);
+   box-shadow: inset 1px 1px 20px rgba(58, 0, 139, 0.397);
+  }
+p:hover span{
+   display: inline-block;
+   color: red;
+  }
+
+   /* =====Game2===== */
+
+  .game-2__container h2::after{
+   content: 'see where the worm sits';
+   display: block;
+   color: red;
+   font-size: 17px;
+   text-align: center;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 700;
+   line-height: 200%;
+}
+
+.choose-apple{
+   width: 95%;
+   margin: 0 auto 35px;
+}
+
+.apple{
+   width: 150px;
+   height: 150px;
+   background: url('../img/apple_green.jpg') center/150px no-repeat;
+   margin: 0 auto;
+}
+
+.choose-apple a{
+   display: block;
+   width: 100px;
+   height: 100px;
+   border: 1px solid #000;
+    border-radius: 5px;
+    background: rgba(172, 255, 47, 0.857);
+    box-shadow: inset 1px 1px 15px #000, 5px -5px 15px 5px rgb(0 0 0 / 7%);
+    margin: 0 auto;
+    text-align: center;
+    font-size: 0;
+    line-height: 90px;
+}
+.choose-apple a:not(:last-of-type){
+   margin-bottom: 25px;
+}
+.choose-apple a:hover{
+   background: #fff;
+   font-weight: 700;
+   font-family: 'Press Start 2P',sans-serif;
+   font-size: 26px;
+   color: rgb(36, 201, 36);
+   line-height: 130px;
+   background: url('../img/apple_worm_green.jpg') center 15%/50px no-repeat;
+}
+.choose-apple a:first-child::active{
+   background: url('../img/apple_green.jpg') center/50px no-repeat;
+   width: 50px;
+   height: 50px;
+}
+
+a.green-apple:active{
+   background: url('../img/apple_green.jpg') center/100px no-repeat;
+   font-size: 0;
+}
+a.red-apple:active{
+   background: url('../img/apple_with_worm.jpg') center/100px no-repeat;
+   font-size: 0;
+}
+
+.apple:target{
+   background: url(
+      ../img/apple_with_worm.jpg
+   )center/150px no-repeat;
+}
+
+footer{
+   background: rgba(128, 128, 128, 0.764);
+   min-height: 100px;
+}
+
+footer::before{
+   content: '';
+   display: block;
+   border-top: 7px double #fff;
+}
+.footer-text{
+   padding: 10px 15px;
+}
+footer p{
+   margin-bottom: 10px;
+}
+footer p:last-of-type{
+   margin-bottom: 0;
+   color: #fff;
+}
