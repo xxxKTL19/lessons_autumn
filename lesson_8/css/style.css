@@ -296,8 +296,7 @@ p:hover span{
     margin: 0 auto;
     text-align: center;
     font-size: 0;
-    line-height: 90px;
-}
+ }
 .choose-apple a:not(:last-of-type){
    margin-bottom: 25px;
 }
@@ -309,11 +308,6 @@ p:hover span{
    color: rgb(36, 201, 36);
    line-height: 130px;
    background: url('../img/apple_worm_green.jpg') center 15%/50px no-repeat;
-}
-.choose-apple a:first-child::active{
-   background: url('../img/apple_green.jpg') center/50px no-repeat;
-   width: 50px;
-   height: 50px;
 }
 
 a.green-apple:active{
