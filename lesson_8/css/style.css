@@ -215,7 +215,7 @@ h2{
    height: 70px;
    margin-bottom: 25px;
 } 
-.apple-worm:hover::before{
+.apple-worm:active::before{
    background: url('../img/apple_worm_green.jpg') center/85px space;
    height: 85px;
    margin-bottom: 10px;
@@ -234,7 +234,7 @@ h2{
 .apple-worm a:last-child{
    margin-bottom: 25px;
 }
-.apple-worm:active::after{
+.apple-worm:hover::after{
      background: url('../img/apple_worm_green_2.jpg') center/90px space;
 }
 
