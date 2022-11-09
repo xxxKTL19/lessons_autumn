@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/reset.css">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Lesson 9. Веб графіка</title>
+</head>
+
+<body>
+   <header></header>
+   <main>
+      <div class="wrapper">
+         <h1><a href="#img">Веб графіка</a></h1>
+         <p>Зображення в форматі .svg</p>
+         <img src="img/illustration.svg" alt="Святкування закінчення навчання">
+         <p>Зображення в форматі .jpg (67 КБ)</p>
+         <img src="img/image.jpg" alt="Блакитне обличчя">
+         <p>Зображення в форматі .webp (11 КБ) </p>
+         <picture>
+            <source srcset="img/image.webp" type="image/webp">
+            <img src="img/not_found.png" alt="Error 404">
+         </picture>
+
+         <p>Категорії зображень:</p>
+         <ul>
+            <li> <span class="red">червоним</span> - контентні зображення</li>
+            <li> <span class="green">зеленим</span> - елементи декору</li>
+            <li> <span class="blue">синім</span> - іконки</li>
+         </ul>
+         <div class="images">
+            <img id="img" src="img/Screenshot_1.png" alt="Screenshot_1">
+            <img src="img/Screenshot_2.png" alt="Screenshot_2">
+            <img src="img/Screenshot_3.png" alt="Screenshot_3">
+            <img src="img/Screenshot_4.png" alt="Screenshot_4">
+            <img src="img/Screenshot_5.png" alt="Screenshot_5">
+            <img src="img/Screenshot_6.png" alt="Screenshot_6">
+            <img src="img/Screenshot_7.png" alt="Screenshot_7">
+            <img src="img/Screenshot_8.png" alt="Screenshot_8">
+            <img src="img/Screenshot_9.png" alt="Screenshot_9">
+            <img src="img/Screenshot_10.png" alt="Screenshot_10">
+            <img src="img/Screenshot_11.png" alt="Screenshot_11">
+            <img src="img/Screenshot_12.png" alt="Screenshot_12">
+         </div>
+      </div>
+   </main>
+   <footer></footer>
+</body>
+
+</html>
