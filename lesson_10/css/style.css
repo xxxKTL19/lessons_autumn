@@ -1,0 +1,125 @@
+*{
+   font-family: Lato, sans-serif;
+   color: #424551;
+   line-height: 1.6;
+}
+[class*='__container']{
+   margin-bottom: 70px;
+   max-width: 810px;
+   margin: 0 auto 70px ;
+}
+img{
+   max-width: 900px;
+   display: block;
+}
+
+
+/* ======= article ======= */
+
+.article {
+}
+.article__container {
+}
+.article__title {
+}
+.article__image {
+}
+.article__body {
+}
+.article__text-block {
+}
+.article__quote {
+}
+.article__list {
+}
+.list {
+}
+.list__title {
+}
+.list__items {
+}
+.list__item {
+}
+.article__paragraph {
+}
+
+
+
+/* ======= about-us ======= */
+
+.about-us {
+}
+.about-us__container {
+}
+.about-us__image {
+}
+.about-us__body {
+}
+.about-us__title {
+}
+.about-us__list {
+}
+.about-us__button {
+}
+.button {
+   width: 166px;
+   height: 44px;
+   border-radius: 4px;
+   font-size: 14px;
+   font-weight: 700;
+   line-height: 3.14;
+   letter-spacing: 0.5px;
+   text-align: center;
+}
+.button--red {
+   background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   color: #fff;
+}
+
+
+
+/* ======= courses ======= */
+
+.courses {
+}
+.courses__container {
+}
+.courses__title {
+}
+.courses__button {
+}
+.button {
+}
+.button--white {
+   color: rgba(255, 63, 58, 1);
+   border: 1px solid rgba(247, 94, 5, 1);
+ }
+.courses__cards-block {
+}
+.courses__card {
+}
+
+
+
+/* ======= benefits ======= */
+
+.benefits {
+}
+.benefits__container {
+}
+.benefits__title {
+}
+.benefits__menu {
+}
+.menu {
+}
+.menu__link {
+}
+.benefits__text-block {
+}
+.benefits__image {
+}
+
+
+
