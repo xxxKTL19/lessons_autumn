@@ -274,7 +274,7 @@ body{
    z-index: 200;
 }
 .bicycle__trip::after{
-   content: '© KTL19 | Novermber 2022';
+   content: '© KTL19 | November 2022';
    display: block;
    color: #ffff;
    text-shadow: 2px 2px 20px #000;
