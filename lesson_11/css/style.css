@@ -1,0 +1,287 @@
+body{
+   background: url('../img/nature_1.png') top / cover fixed;
+}
+.wrapper {
+   height: 100%;
+   /* overflow: hidden; */
+}
+
+[class*='__container']{
+  width: 100%;
+}
+
+/* ====== header ======= */
+.header{
+   position: fixed;
+   left: 0;
+   top: 0;
+   width: 100%;
+   background: rgba(153, 205, 50, 0.96);
+   padding: 5px;
+   z-index: 100;
+}
+.header__container {
+   max-width: 820px;
+   margin: 0 auto;
+}
+.header__menu {
+   text-align: center; 
+   line-height: 1.5;
+}
+.header__menu::before{
+   content: 'LESSON 11. POSITION';
+   display: block; 
+   text-align: center;
+   font-size: 35px;
+}
+.header__menu:hover::before{
+   letter-spacing: 1.2px;
+   color:blue;
+}
+.menu__item {
+   font-size: 24px;
+   text-transform: uppercase;
+   color:#ffff;
+   text-shadow: 1px 1px 2px rgb(116, 78, 32);
+   letter-spacing: 2.5px;
+   display: inline-block;
+   position: relative;
+}
+.menu__item:not(:last-child){
+   margin-right: 50px;
+}
+.menu__item:hover{
+   color: rgb(255, 255, 18);
+   text-shadow: 2px 2px 2px rgb(4, 4, 52);
+}
+.menu__item:hover .menu__list{
+   opacity: 1;
+   visibility: visible;
+   top: 100%;
+}
+.menu__list {
+   background: rgb(159, 155, 155);
+   min-width: 160px;
+   position: absolute;
+   left: -40px;
+   top: 180%;
+   opacity: 0;
+   visibility: hidden;
+   transition: all 0.3s ease 0s;
+}
+.link__item {
+   font-weight: 700;
+   font-size: 22px;
+   font-style: italic;
+   text-transform: none;
+   text-shadow: none;
+}
+.link__item:not(:last-child){
+   margin-bottom: 8px;
+}
+.link__item:hover{
+   background: rgb(146, 144, 144);
+   font-weight: 400;
+   outline: 1px dashed rgba(0, 0, 0, 0.172);
+}
+.link--pink {
+   color: pink;
+}
+.link--blue {
+   color: blue;
+}
+.link--purple {
+   color: purple;
+}
+
+
+/* ====== content ====== */
+
+.content__container {
+   max-width: 800px;
+   margin: 0 auto 50px;
+   padding-top: 140px;
+}
+.content__block { 
+   font-size: 45px;
+}
+.content__block:not(:last-child){
+   margin-bottom: 30px;
+}
+.content__title {
+   padding: 15px;
+   color: #ffff;
+   text-shadow: 2px 2px 2px rgb(4, 4, 52); 
+   position: sticky;
+   top: 100px;
+}
+.content__title--yellow { 
+   background: yellow;
+}
+.content__title--violet {
+  background: violet;
+}
+.content__title--green {
+   background: green;
+}
+.content__title--grey {
+   background: grey;
+}
+.content__title--crimson {
+   background: crimson;
+}
+
+
+/* ====== bicycle ====== */
+.bicycle__container {
+   min-height: 1000px; 
+   background: url('../img/nature_4.png') 0 / 100% no-repeat; 
+   overflow: hidden;
+}
+.bicycle__accessories::before{
+   content: 'Travelling 🚴‍♂️ by bicycle';
+   display: block;
+   text-align: center;
+   color: #ffff;
+   font-weight: 700;
+   text-shadow: 2px 2px 20px #000;
+   padding: 15px;
+   font-size: 55px; 
+}
+.body {
+   position: relative;
+}
+.body__handlebar {
+   background: url('../img/bicycle_handlebar.png') 0 0 / 100% no-repeat;
+   height: 200px;
+   width: 200px;
+   position: absolute;
+   top: 100px;
+   left: 902px;
+   z-index: 4;
+}
+.body__seat {
+   background: url('../img/bicycle_seat_5.png') 0 0 / 100% no-repeat;
+   height: 180px;
+   width: 180px;
+   position: absolute;
+   top: 200px;
+   left:780px;
+   z-index: 3;
+}
+.body__frame {
+   background: url('../img/bicycle_frame_4.png') 0 0 / 100% no-repeat;
+   height: 500px;
+   width: 500px;
+   position: absolute;
+   top: 150px;
+   left: 720px;
+   z-index: 3;
+}
+.body__chain {
+   background: url('../img/bicycle_chain_broken_3.png') 0 0 / 100% 110px no-repeat;
+   height: 220px;
+   width: 220px;
+   position: absolute;
+   top: 560px;
+   left: 800px;
+   z-index: 4;
+}
+.body__pedals {
+   background: url('../img/bicycle_pedals.png') 0 0 / 100% no-repeat;
+   height: 100px;
+   width: 100px;
+  opacity: 0.85;
+   position: absolute;
+   top: 468px;
+   left: 872px;
+   z-index: 5;
+}
+.body__wheel {
+   background: url('../img/wheel_2.png') 0 0 / 100% no-repeat;
+   height: 250px;
+   width: 250px;
+   position: absolute;
+   z-index: 0;
+}
+.body__wheel--front {
+   top: 390px;
+   left: 1022px;
+}
+.body__wheel--rear {
+   top: 340px;
+   left: 630px;
+}
+
+
+/* ====== traveling ====== */
+.bicycle__trip {
+   min-height: 900px;
+   position: relative;
+}
+.traveling__cyclist {
+   background: url('../img/cyclist.png') 0 0 / 100% no-repeat;
+   height: 500px;
+   width: 500px;
+   position: absolute;
+   top: 250px;
+   left: 250px; 
+   z-index: 20;
+}
+.traveling__stump {
+   background: url('../img/stump.png') 0 0 / 100% no-repeat;
+   height: 160px;
+   width: 160px;
+   position: absolute;
+   top: 621px;
+   left: 345px;
+  }
+.traveling__grass {
+   background: url('../img/grass.png') 0 0 / 100% no-repeat;
+}
+.traveling__grass--behind {
+   height: 450px;
+   width: 450px;
+   position: absolute; 
+   top: 721px;
+   left: 245px;
+   z-index: 130;
+}
+.traveling__grass--ahead {
+   height: 150px;
+   width: 650px;
+   position: fixed;
+   left: 50%;
+   bottom: -50px;
+   z-index: 130;
+}
+.traveling__tree--right {
+   background: url('../img/tree_1.png') 0 0 / 100% no-repeat;
+   height: 750px;
+   width: 450px;
+   position: fixed;
+   bottom: 0px;
+   right: -100px;
+   z-index: 200;
+}
+.traveling__tree--left {
+   background: url('../img/tree_2.png') 0 0 / 100% no-repeat;
+   height: 750px;
+   width: 450px;
+   position: fixed;
+   bottom: 0;
+   left: -70px;
+   z-index: 200;
+}
+.bicycle__trip::after{
+   content: '© KTL19 | Novermber 2022';
+   display: block;
+   color: #ffff;
+   text-shadow: 2px 2px 20px #000;
+   position: absolute;
+   bottom: 0;
+   left: 200px;
+}
+
+
+
