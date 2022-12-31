@@ -54,7 +54,7 @@ header{
       transform: scale(0.8);
    }
      100%{
-      scale: (1);
+      transform: scale(1);
    }
 }
 
